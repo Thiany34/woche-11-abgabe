@@ -1,5 +1,5 @@
 import type { Actions, PageServerLoad } from './$types';
-import { db } from '$lib/db';
+import { db } from '$lib/db.server';
 import { ObjectId } from 'mongodb';
 
 export const load: PageServerLoad = async () => {

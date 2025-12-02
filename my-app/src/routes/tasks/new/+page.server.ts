@@ -1,5 +1,5 @@
 import type { Actions } from './$types';
-import { db } from '$lib/db';
+import { db } from '$lib/db.server';
 
 export const actions: Actions = {
     default: async ({ request }) => {
